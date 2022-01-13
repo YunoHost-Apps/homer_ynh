@@ -68,6 +68,7 @@ tree "$final_path"
 
 # TODO: Have a custom config.yml in conf/
 cp "$final_path/assets/config.yml.dist" "$final_path/assets/config.yml"
+touch "$final_path/assets/yunohost_apps.yml"
 
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
