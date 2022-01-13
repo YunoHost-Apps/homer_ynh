@@ -1,66 +1,62 @@
-# Example app pour YunoHost
+# Homer pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/example.svg)](https://dash.yunohost.org/appci/app/example) ![](https://ci-apps.yunohost.org/ci/badges/example.status.svg)  ![](https://ci-apps.yunohost.org/ci/badges/example.maintain.svg)
-[![Installer example avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=example)
+[![Niveau d'intégration](https://dash.yunohost.org/integration/homer.svg)](https://dash.yunohost.org/appci/app/homer) ![](https://ci-apps.yunohost.org/ci/badges/homer.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/homer.maintain.svg)  
+[![Installer Homer avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=homer)
 
 *[Read this readme in english.](./README.md)*
 *[Lire ce readme en français.](./README_fr.md)*
 
-> *This package allows you to install example quickly and simply on a YunoHost server.
-If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
+> *Ce package vous permet d'installer Homer rapidement et simplement sur un serveur YunoHost.
+Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
 
 ## Vue d'ensemble
 
-Expliquez en *quelques* (10~15) mots l'utilité de l'app ou ce qu'elle fait (l'objectif est de donner une idée grossière pour des utilisateurs qui naviguent dans un catalogue de 100+ apps)
+Une page d'accueil simpliste pour votre serveur.
 
-**Version incluse:** 1.0~ynh1
+### Fonctionnalités
 
-**Démo:** https://demo.example.com
+- fichier de configuration en yaml
+- Recherche
+- Groupes
+- Personnalisation des thèmes
+- Vérification hors-ligne des services
+- Raccourcis clavier :
+    - `/` Rechercher
+    - `Escape` Quitter la recherche
+    - `Enter` Ouvrir le premier résultat de recherche
+    - `Alt`/`Option` + `Enter` Ouvrir le premier résultat de recherche dans un nouvel onglet
 
+
+**Version incluse :** 21.09.2~ynh1
+
+**Démo :** https://homer-demo.netlify.app/
 
 ## Captures d'écran
 
-
-   ![](./doc/screenshots/example.jpg)
-
-
-
+![](./doc/screenshots/homer.webp)
 
 ## Avertissements / informations importantes
 
-* Any known limitations, constrains or stuff not working, such as (but not limited to):
-    * requiring a full dedicated domain ?
-    * architectures not supported ?
-    * not-working single-sign on or LDAP integration ?
-    * the app requires an important amount of RAM / disk / .. to install or to work properly
-    * etc...
-
-* Other infos that people should be aware of, such as:
-    * any specific step to perform after installing (such as manually finishing the install, specific admin credentials, ...)
-    * how to configure / administrate the application if it ain't obvious
-    * upgrade process / specificities / things to be aware of ?
-    * security considerations ?
-
-
+* Tous les utilisateurs on la même page d'accueil, il n'y a pas de configuration par-utilisateur
 
 ## Documentations et ressources
 
-* Site official de l'app : https://example.com
-* Documentation officielle utilisateur: https://yunohost.org/apps
-* Documentation officielle de l'admin: https://yunohost.org/packaging_apps
-* Dépôt de code officiel de l'app:  https://some.forge.com/example/example
-* Documentation YunoHost pour cette app: https://yunohost.org/app_example
-* Signaler un bug: https://github.com/YunoHost-Apps/example_ynh/issues
+* Site officiel de l'app : https://github.com/bastienwirtz/homer
+* Documentation officielle utilisateur : https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md
+* Documentation officielle de l'admin : https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md
+* Dépôt de code officiel de l'app : https://github.com/bastienwirtz/homer
+* Documentation YunoHost pour cette app : https://yunohost.org/app_homer
+* Signaler un bug : https://github.com/YunoHost-Apps/homer_ynh/issues
 
 ## Informations pour les développeurs
 
-Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/example_ynh/tree/testing).
+Merci de faire vos pull request sur la [branche testing](https://github.com/YunoHost-Apps/homer_ynh/tree/testing).
 
 Pour essayer la branche testing, procédez comme suit.
 ```
-sudo yunohost app install https://github.com/YunoHost-Apps/example_ynh/tree/testing --debug
-or
-sudo yunohost app upgrade example -u https://github.com/YunoHost-Apps/example_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/homer_ynh/tree/testing --debug
+ou
+sudo yunohost app upgrade homer -u https://github.com/YunoHost-Apps/homer_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications:** https://yunohost.org/packaging_apps
+**Plus d'infos sur le packaging d'applications :** https://yunohost.org/packaging_apps

@@ -1,9 +1,14 @@
-Some long and extensive description of what the app is and does, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+A very simple static homepage for your server.
 
 ### Features
 
-- Ut enim ad minim veniam, quis nostrud exercitation ullamco ;
-- Laboris nisi ut aliquip ex ea commodo consequat ;
-- Duis aute irure dolor in reprehenderit in voluptate ;
-- Velit esse cillum dolore eu fugiat nulla pariatur ;
-- Excepteur sint occaecat cupidatat non proident, sunt in culpa."
+- yaml file configuration
+- Search
+- Grouping
+- Theme customization
+- Offline heathcheck
+- keyboard shortcuts:
+    - `/` Start searching.
+    - `Escape` Stop searching.
+    - `Enter` Open the first matching result (respects the bookmark's _target property).
+    - `Alt`/`Option` + `Enter` Open the first matching result in a new tab.

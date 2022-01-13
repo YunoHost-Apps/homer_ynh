@@ -10,7 +10,7 @@
 # automatic actions when a new upstream release is detected.
 
 # Remove this exit command when you are ready to run this Action
-exit 1
+# exit 1
 
 #=================================================
 # FETCHING LATEST RELEASE AND ITS ASSETS
@@ -25,7 +25,7 @@ assets=($(curl --silent "https://api.github.com/repos/$repo/releases" | jq -r '[
 
 # Later down the script, we assume the version has only digits and dots
 # Sometimes the release name starts with a "v", so let's filter it out.
-# You may need more tweaks here if the upstream repository has different naming conventions. 
+# You may need more tweaks here if the upstream repository has different naming conventions.
 if [[ ${version:0:1} == "v" || ${version:0:1} == "V" ]]; then
     version=${version:1}
 fi
@@ -66,11 +66,8 @@ echo "Handling asset at $asset_url"
 # Here we base the source file name upon a unique keyword in the assets url (admin vs. update)
 # Leave $src empty to ignore the asset
 case $asset_url in
-  *"admin"*)
+  *"homer.zip")
     src="app"
-    ;;
-  *"update"*)
-    src="app-upgrade"
     ;;
   *)
     src=""
@@ -105,7 +102,7 @@ SOURCE_SUM=$checksum
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=$extension
 SOURCE_IN_SUBDIR=true
-SOURCE_FILENAME=
+SOURCE_EXTRACT=true
 EOT
 echo "... conf/$src.src updated"
 
