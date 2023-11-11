@@ -46,7 +46,6 @@ Une page d'accueil simpliste pour votre serveur.
 
 ## Documentations et ressources
 
-* Site officiel de l’app : <https://github.com/bastienwirtz/homer>
 * Documentation officielle utilisateur : <https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md>
 * Documentation officielle de l’admin : <https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md>
 * Dépôt de code officiel de l’app : <https://github.com/bastienwirtz/homer>

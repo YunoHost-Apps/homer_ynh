@@ -46,7 +46,6 @@ A very simple static homepage for your server.
 
 ## Documentation and resources
 
-* Official app website: <https://github.com/bastienwirtz/homer>
 * Official user documentation: <https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md>
 * Official admin documentation: <https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md>
 * Upstream app code repository: <https://github.com/bastienwirtz/homer>
