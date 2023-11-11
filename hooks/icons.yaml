@@ -1,0 +1,29 @@
+logos:
+  agendav: https://raw.githubusercontent.com/agendav/agendav/develop/assets/artwork/favicon128.png
+  baikal: https://sabre.io/img/baikal.png
+  cinny: https://raw.githubusercontent.com/ajbura/cinny-site/master/assets/cinny.svg
+  ffsync: https://1.bp.blogspot.com/-PeW8X9L83yo/T30b45uuvsI/AAAAAAAAAok/iqaSScYOl-A/s400/Firefox_Sync_logo.png
+  gitea: https://raw.githubusercontent.com/go-gitea/gitea/main/assets/logo.svg
+  grav: https://getgrav.org/user/pages/media/grav-symbol.svg
+  hedgedoc: https://raw.githubusercontent.com/hedgedoc/hedgedoc-logo/main/LOGOTYPE/SVG/HedgeDoc-Logo%201.svg
+  homer: https://raw.githubusercontent.com/bastienwirtz/homer/main/public/logo.png
+  # ihatemoney: ''
+  jellyfin: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-transparent.svg
+  kresus: https://raw.githubusercontent.com/kresusapp/kresus/main/client/static/images/favicon/favicon-192x192.png
+  lufi: https://raw.githubusercontent.com/ldidry/lufi/master/themes/default/public/img/lufi.svg
+  lychee: https://raw.githubusercontent.com/LycheeOrg/Lychee/master/public/img/apple-touch-icon-ipad.png
+  mediawiki: https://upload.wikimedia.org/wikipedia/commons/a/a6/MediaWiki-2020-icon.svg
+  nextcloud: https://nextcloud.com/wp-content/themes/next/assets/img/logo/logo_nextcloud_blue.svg
+  # opensondage: ''
+  # piwigo: ''
+  rainloop: https://www.rainloop.net/static/img/logo-256x256-tiny.png
+  # redirect: ''
+  synapse: https://matrix.org/images/matrix-logo.svg
+  syncthing: https://raw.githubusercontent.com/syncthing/syncthing/main/assets/logo-256.png
+  transmission: https://raw.githubusercontent.com/transmission/transmission/master/web/style/images/logo.png
+  trilium: https://raw.githubusercontent.com/zadam/trilium/master/images/app-icons/png/256x256.png
+  ttrss: https://git.tt-rss.org/fox/tt-rss/raw/branch/master/images/favicon-512px.png
+  vaultwarden: https://raw.githubusercontent.com/dani-garcia/vaultwarden/main/resources/vaultwarden-icon.svg
+  # vpnclient: ''
+  wetty: https://raw.githubusercontent.com/butlerx/wetty/main/src/assets/favicon.ico
+  # wireguard: https://www.wireguard.com/img/wireguard.svg
