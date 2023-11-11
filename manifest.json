@@ -3,8 +3,8 @@
     "id": "homer",
     "packaging_format": 1,
     "description": {
-        "en": "A very simple static homepage for your server",
-        "fr": "Une page d'accueil simpliste pour votre serveur"
+        "en": "Simple static homepage for your server",
+        "fr": "Page d'accueil simpliste pour votre serveur"
     },
     "version": "21.09.2~ynh1",
     "url": "https://github.com/bastienwirtz/homer",
