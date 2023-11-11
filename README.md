@@ -40,12 +40,9 @@ A very simple static homepage for your server.
 
 ![Screenshot of Homer](./doc/screenshots/homer.webp)
 
-## Disclaimers / important information
-
-* Every user has the same dashboard, there's no per-user configuration
-
 ## Documentation and resources
 
+* Official app website: <https://homer-demo.netlify.app/>
 * Official user documentation: <https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md>
 * Official admin documentation: <https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md>
 * Upstream app code repository: <https://github.com/bastienwirtz/homer>
