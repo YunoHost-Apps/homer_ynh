@@ -9,7 +9,7 @@ from jinja2 import Environment, BaseLoader
 
 page_template = '''
 ---
-title: "Yunohost apps"
+title: "YunoHost apps"
 subtitle: "App dashboard"
 logo: false
 # icon: "fas fa-skull-crossbones" Optional icon
