@@ -10,7 +10,6 @@
     "url": "https://github.com/bastienwirtz/homer",
     "upstream": {
         "license": "MIT",
-        "website": "https://github.com/bastienwirtz/homer",
         "demo": "https://homer-demo.netlify.app/",
         "admindoc": "https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md",
         "userdoc": "https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md",
