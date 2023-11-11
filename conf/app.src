@@ -1,6 +1,0 @@
-SOURCE_URL=https://github.com/bastienwirtz/homer/releases/download/v21.09.2/homer.zip
-SOURCE_SUM=347bc7dc85b4e4ed58bcfa7428e514d1a8d9b2e87b04c82a51326f3306dcfaa6
-SOURCE_SUM_PRG=sha256sum
-SOURCE_FORMAT=zip
-SOURCE_IN_SUBDIR=false
-SOURCE_EXTRACT=true
