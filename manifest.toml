@@ -11,11 +11,11 @@ maintainers = ["Salamandar"]
 
 [upstream]
 license = "MIT"
+website = "https://homer-demo.netlify.app/"
 demo = "https://homer-demo.netlify.app/"
 admindoc = "https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md"
 userdoc = "https://github.com/bastienwirtz/homer/blob/main/docs/configuration.md"
 code = "https://github.com/bastienwirtz/homer"
-website = "https://github.com/bastienwirtz/homer"
 
 [integration]
 yunohost = ">= 11.2"
